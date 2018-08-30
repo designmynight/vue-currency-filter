@@ -48,8 +48,6 @@ const VueCurrencyFilter = {
       let symbolPosition = _isUndefined(_symbolPosition) ? Vue.currencyFilterConfig.symbolPosition : _symbolPosition
       let symbolSpacing = _isUndefined(_symbolSpacing) ? Vue.currencyFilterConfig.symbolSpacing : _symbolSpacing
 
-      console.log('symbol', _symbol, symbol,  Vue.currencyFilterConfig.symbol);
-
       let result = 0.0
       let isNegative = String(value).charAt(0) === '-'
 
